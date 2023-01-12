@@ -5,6 +5,8 @@ class Node:
         self.right = None 
         self.level = None 
 
+
+
     def __str__(self):
         return str(self.info) 
 
