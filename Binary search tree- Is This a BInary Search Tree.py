@@ -12,7 +12,7 @@ def check_binary_search_tree_(root):
             return False
         else:
             data_set.add(node.data)
-        
+        print("what")
         if not min_:
             if node.data < max_:
                 return (check(node.left, min_ = min_, max_ = node.data)
