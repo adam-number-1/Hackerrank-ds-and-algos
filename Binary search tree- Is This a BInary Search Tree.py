@@ -31,6 +31,9 @@ def check_binary_search_tree_(root):
         
         if node.data < min_ or node.data > max_:
             return False
+
+
+            
         
         return check(node.left, min_ = min_, max_ = node.data) and check(node.right, min_ = node.data, max_ = max_)
     
